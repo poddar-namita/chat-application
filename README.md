@@ -26,7 +26,7 @@ This is web based chatting application which would enable easy and user friendly
 -   Bootstrap5
 -   JavaScript
 -   Java
--   MySQl
+-   MySQ
 
 [Back To The Top](#Chat-Application)
 

@@ -1,12 +1,12 @@
 //onclick event on button register
 const registerVar = document.getElementById("register");
 registerVar.addEventListener("click", () => {
+    //submit form on sucessfull validation
     if (validateRegistration()) {
         document.forms[0].action = "./register.jsp";
         document.forms[0].method = "POST";
         document.forms[0].submit();
     }
-    // validateRegistration();
 });
 
 //input validations
@@ -36,7 +36,7 @@ function validateRegistration() {
     }
 }
 
-//visibility of password
+//Show password
 const showVar = document.getElementById("reg-showPassword");
 const passwordVar = document.getElementById("reg-password");
 const confirmPassVar = document.getElementById("reg-confirmPassword");
