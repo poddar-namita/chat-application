@@ -26,7 +26,7 @@ This is web based chatting application which would enable easy and user friendly
 -   Bootstrap5
 -   JavaScript
 -   Java
--   MySQ
+-   MySQL
 
 [Back To The Top](#Chat-Application)
 
@@ -40,10 +40,11 @@ This is web based chatting application which would enable easy and user friendly
         >> For Linux: Terminal
         >> git clone https://github.com/poddar-namita/chat-application.git
     > Install Apache Tomcat 9.0.
-    > Navigate to C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps and clone the repo it this folder
+    > Navigate to C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps and clone the repo in this folder
     > Start Apache and MySQL in XAMMP.
     > Create Database.
-    > Create a Database named "chat_application" and import the schema provided with the file name "chat_application.sql".
+    > Create a Database named "chat_application" and import the schema provided with the file name "database.sql".
+    > Open brower type "localhost:8080/chat-application" in the url to run.
 ```
 
 [Back To The Top](#Chat-Application)

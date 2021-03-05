@@ -19,8 +19,9 @@ function validateLogin() {
     } else if (passwordVar === "") {
         alert("Password is required!");
         document.getElementById("password").focus();
+    } else {
+        return true;
     }
-    return true;
 }
 
 //show password
